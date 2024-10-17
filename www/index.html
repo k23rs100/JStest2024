@@ -16,6 +16,16 @@
         });
 
         function main() {
+            var a=0;
+            var txt="";
+            txt+="a:"+a+"<br>";
+            if(a=1){
+                txt+="TRUE<br>";
+            }else{
+                txt+="FALSE<br>";
+            }
+            txt+="a:"+a+"<br>";
+            $("#disp2").html(txt);
             
             $("#disp1").html("Hello, JavaScript<br>This is Monaca");
             $("#disp1").css("font-size","x-large");
